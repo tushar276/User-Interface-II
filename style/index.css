@@ -1,1 +1,26 @@
 /* Add CSS styling here */
+.myimg > div > div > img {
+height: 250px;
+width: 250px;
+margin:25px;
+
+}
+.containerimage
+{
+    display: flex;
+    flex-direction:raw;
+    justify-content: center; /* align horizontal */
+align-items: center;
+}
+
+
+.mainimg > img {
+    height: auto;
+    width: 60%;
+    margin:25px;
+}
+
+footer {
+    background-color: #eeeeee;
+    padding: 15px;
+}
