@@ -1,1 +1,162 @@
-/* Add CSS styling here */
+.navigation {
+    /* When on medium sized screens, we center it by evenly distributing empty space around items */
+    justify-content: space-around;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  
+  /* Add CSS styling here */
+  .myimg > div > div > img {
+  height: 100%;
+  width: 100%;
+  margin: 25px;
+  height: 30vh;
+  }
+
+  .myimg > div > div {
+      width: 30%;
+      padding: 1%;
+  }
+
+  .containerimage
+  {
+    width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction:raw;
+      justify-content: center; /* align horizontal */
+  align-items: center;
+  }
+  
+  
+  .mainimg > img {
+      height: auto;
+      width: 60%;
+      margin:25px;
+  }
+  
+  footer {
+      background-color: #eeeeee;
+      padding: 15px;
+  }
+
+@media all and (max-width: 800px) {
+    .navigation {
+      /* When on medium sized screens, we center it by evenly distributing empty space around items */
+      justify-content: space-around;
+    }
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: flex;
+    text-align: center;
+  }
+
+  .topnav > a {
+      width: 100%;
+  }
+
+
+
+    /* Add CSS styling here */
+  .myimg > div > div > img {
+    height: 100%;
+    width: 95%;
+    margin: 5%;
+    height: 20vh;
+    }
+  
+    .myimg > div > div {
+        width: 45%;   
+    }
+  
+    .containerimage
+    {
+        display: flex;
+        flex-direction:raw;
+        justify-content: center; /* align horizontal */
+    align-items: center;
+    }
+    
+    
+    .mainimg > img {
+        height: auto;
+        width: 60%;
+        margin:25px;
+    }
+    
+    footer {
+        background-color: #eeeeee;
+        padding: 15px;
+    }
+
+}
+
+
+  /* Small screens */
+/* @media all and (max-width: 500px) {
+
+  .myimg > div > div > img {
+    height: 100%;
+    width: 100%;
+    margin: 25px;
+    height: 30vh;
+}
+  
+    .myimg > div > div {
+        width: 45%;
+        padding: 1%;
+        
+    }
+  
+    .containerimage
+    {
+        display: flex;
+        flex-direction:raw;
+        justify-content: center; 
+    align-items: center;
+    }
+    
+    
+    .mainimg > img {
+        height: auto;
+        width: 60%;
+        margin:25px;
+    }
+    
+    footer {
+        background-color: #eeeeee;
+        padding: 15px;
+    }
+
+} */
